@@ -34,16 +34,10 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
-            timeout-ms = <100>;
-            key-positions = <0 1>;
-            bindings = <&kp A>;
-        };
-
         combo_tvp {
             timeout-ms = <100>;
             key-positions = <11 12 13>;
-            bindings = <&tog 4>;
+            bindings = <&mo 4>;
         };
     };
 
@@ -114,7 +108,7 @@
             bindings = <
         &kp HOME      &trans     &kp UP    &trans     &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
         &kp END       &kp LEFT   &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&trans  &kp LEFT_GUI  &kp PG_UP  &trans    &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &kp KP_EQUAL
+&tog 4  &kp LEFT_GUI  &kp PG_UP  &trans    &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &kp KP_EQUAL
                                  &trans    &trans     &trans      &mo 3     &kp KP_N0  &trans
             >;
         };
@@ -173,10 +167,10 @@
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        tvp1_layer {
+        mouse_layer {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
-            label = "TVP 1";
+            label = "mou 1";
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
