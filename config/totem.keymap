@@ -42,7 +42,7 @@
         combo_tvp {
             timeout-ms = <100>;
             key-positions = <27 29 28>;
-            bindings = <&mo 4>;
+            bindings = <&tog 4>;
         };
     };
 
